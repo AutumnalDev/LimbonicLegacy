@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "limboniclegacy:block/candy_cane" },
+        "axis=z":   { "model": "limboniclegacy:block/candy_cane", "x": 90 },
+        "axis=x":   { "model": "limboniclegacy:block/candy_cane", "x": 90, "y": 90 }
+    }
+}

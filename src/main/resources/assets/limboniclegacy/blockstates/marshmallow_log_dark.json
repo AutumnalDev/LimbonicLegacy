@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "limboniclegacy:block/marshmallow_log_dark",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "limboniclegacy:block/marshmallow_log_dark"
+    },
+    "axis=z": {
+      "model": "limboniclegacy:block/marshmallow_log_dark",
+      "x": 90
+    }
+  }
+}

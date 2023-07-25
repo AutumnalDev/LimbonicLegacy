@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "limboniclegacy:block/pudding" },
+            { "model": "limboniclegacy:block/pudding", "y": 90 },
+            { "model": "limboniclegacy:block/pudding", "y": 180 },
+            { "model": "limboniclegacy:block/pudding", "y": 270 }
+        ]
+    }
+}

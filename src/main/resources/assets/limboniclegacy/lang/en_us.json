@@ -1,0 +1,21 @@
+{
+  "itemGroup.limboniclegacy.group_ef": "Limbonic Legacy (Eternal Frost)",
+  "item.limboniclegacy.arctite_ingot": "Arctite Ingot",
+  "item.limboniclegacy.arctite_helmet": "Arctite Helmet",
+  "item.limboniclegacy.arctite_chestplate": "Arctite Chestplate",
+  "item.limboniclegacy.arctite_leggings": "Arctite Leggings",
+  "item.limboniclegacy.arctite_boots": "Arctite Boots",
+  "item.limboniclegacy.coldsteel_ingot": "Coldsteel Ingot",
+  "item.limboniclegacy.coldsteel_helmet": "Coldsteel Helmet",
+  "item.limboniclegacy.coldsteel_chestplate": "Coldsteel Chestplate",
+  "item.limboniclegacy.coldsteel_leggings": "Coldsteel Leggings",
+  "item.limboniclegacy.coldsteel_boots": "Coldsteel Boots",
+
+  "itemGroup.limboniclegacy.group_candy": "Limbonic Legacy (CandyCraft)",
+  "block.limboniclegacy.candy_cane": "Candy Cane",
+  "block.limboniclegacy.pudding": "Pudding",
+  "block.limboniclegacy.flour": "Flour",
+  "block.limboniclegacy.marshmallow_log_light": "Light Marshmallow Log",
+  "block.limboniclegacy.marshmallow_log_normal": "Normal Marshmallow Log",
+  "block.limboniclegacy.marshmallow_log_dark": "Dark Marshmallow Log"
+}

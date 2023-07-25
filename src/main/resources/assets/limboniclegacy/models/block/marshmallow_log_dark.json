@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "limboniclegacy:block/marshmallow_log_top_dark",
+        "side": "limboniclegacy:block/marshmallow_log_side_dark"
+    }
+}
