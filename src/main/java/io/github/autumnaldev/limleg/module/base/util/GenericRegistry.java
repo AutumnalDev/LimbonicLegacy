@@ -13,7 +13,7 @@ public class GenericRegistry<T> {
         this.registry = registry;
     }
 
-    protected T register(String name, T whatever) {
+    protected T add(String name, T whatever) {
         objects.put(new Identifier("limboniclegacy", name), whatever);
         return whatever;
     }
