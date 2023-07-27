@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_farmland",
+  "textures": {
+    "dirt": "limboniclegacy:block/frozen_dirt",
+    "top": "limboniclegacy:block/frozen_farmland"
+  }
+}

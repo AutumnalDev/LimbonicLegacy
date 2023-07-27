@@ -1,4 +1,4 @@
-package io.github.autumnaldev.limleg.module.eternal_frost.item;
+package io.github.autumnaldev.limleg.module.eternal_frost.registry;
 
 import io.github.autumnaldev.limleg.module.base.util.GenericRegistry;
 import net.minecraft.item.Item;

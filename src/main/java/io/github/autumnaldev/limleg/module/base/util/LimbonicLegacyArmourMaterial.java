@@ -1,6 +1,6 @@
 package io.github.autumnaldev.limleg.module.base.util;
 
-import io.github.autumnaldev.limleg.module.eternal_frost.item.ItemRegistryEF;
+import io.github.autumnaldev.limleg.module.eternal_frost.registry.ItemRegistryEF;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;

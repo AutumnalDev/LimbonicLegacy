@@ -1,8 +1,8 @@
 package io.github.autumnaldev.limleg.module.candycraft;
 
 import io.github.autumnaldev.limleg.LimbonicLegacy;
-import io.github.autumnaldev.limleg.module.candycraft.block.BlockItemRegistryCandy;
-import io.github.autumnaldev.limleg.module.candycraft.block.BlockRegistryCandy;
+import io.github.autumnaldev.limleg.module.candycraft.registry.BlockItemRegistryCandy;
+import io.github.autumnaldev.limleg.module.candycraft.registry.BlockRegistryCandy;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;

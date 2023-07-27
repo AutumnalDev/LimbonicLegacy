@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "limboniclegacy:block/snowbark_log_top",
+        "side": "limboniclegacy:block/snowbark_log_side"
+    }
+}

@@ -1,9 +1,7 @@
 package io.github.autumnaldev.limleg.module.eternal_frost;
 
 import io.github.autumnaldev.limleg.LimbonicLegacy;
-import io.github.autumnaldev.limleg.module.eternal_frost.item.equipment.ArmourRegistryEF;
-import io.github.autumnaldev.limleg.module.eternal_frost.item.ItemRegistryEF;
-import io.github.autumnaldev.limleg.module.eternal_frost.item.equipment.ToolRegistryEF;
+import io.github.autumnaldev.limleg.module.eternal_frost.registry.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
@@ -36,6 +34,15 @@ public class ModuleInitEF {
             entries.add(ArmourRegistryEF.COLDSTEEL_CHESTPLATE);
             entries.add(ArmourRegistryEF.COLDSTEEL_LEGGINGS);
             entries.add(ArmourRegistryEF.COLDSTEEL_BOOTS);
+
+            entries.add(BlockItemRegistryEF.FROZEN_GRASS);
+            entries.add(BlockItemRegistryEF.FROZEN_DIRT);
+            entries.add(BlockItemRegistryEF.FROZEN_SAND);
+            entries.add(BlockItemRegistryEF.SNOWBARK_LOG);
+            entries.add(BlockItemRegistryEF.SNOWBARK_PLANKS);
+            entries.add(BlockItemRegistryEF.FROZEN_COBBLESTONE);
+            entries.add(BlockItemRegistryEF.FROZEN_STONE);
+            entries.add(BlockItemRegistryEF.ARCTITE_ORE);
         })
         .displayName(Text.translatable("itemGroup.limboniclegacy.group_ef"))
         .build();
@@ -43,7 +50,9 @@ public class ModuleInitEF {
     public static void run() {
         LimbonicLegacy.LOGGER.info("Loading Eternal Frost module...");
 
+        BlockRegistryEF.INSTANCE.register();
         ItemRegistryEF.INSTANCE.register();
+        BlockItemRegistryEF.INSTANCE.register();
         ToolRegistryEF.INSTANCE.register();
         ArmourRegistryEF.INSTANCE.register();
 

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "limboniclegacy:block/snowbark_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "limboniclegacy:block/snowbark_log"
+    },
+    "axis=z": {
+      "model": "limboniclegacy:block/snowbark_log",
+      "x": 90
+    }
+  }
+}

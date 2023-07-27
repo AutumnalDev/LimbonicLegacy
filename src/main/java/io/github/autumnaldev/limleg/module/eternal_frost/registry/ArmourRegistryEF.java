@@ -1,4 +1,4 @@
-package io.github.autumnaldev.limleg.module.eternal_frost.item.equipment;
+package io.github.autumnaldev.limleg.module.eternal_frost.registry;
 
 import io.github.autumnaldev.limleg.module.base.util.LimbonicLegacyArmourMaterial;
 import io.github.autumnaldev.limleg.module.base.util.GenericRegistry;

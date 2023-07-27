@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "limboniclegacy:block/frozen_grass_top",
+        "side": "limboniclegacy:block/frozen_grass_side"
+    }
+}

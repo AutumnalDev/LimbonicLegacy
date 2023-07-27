@@ -1,4 +1,4 @@
-package io.github.autumnaldev.limleg.module.candycraft.block;
+package io.github.autumnaldev.limleg.module.candycraft.registry;
 
 import io.github.autumnaldev.limleg.module.base.util.GenericRegistry;
 import net.minecraft.item.Item;
