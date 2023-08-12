@@ -1,0 +1,14 @@
+{
+  "base_block": "limboniclegacy:marshmallow_planks_normal",
+  "textures": "limboniclegacy:block/marshmallow_planks_normal",
+  "recipes": "sawing",
+  "map_color": "fire",
+  "types_to_generate": [
+    "arch",
+    "octagonal_column",
+    "beam",
+    "joist",
+    "crown_molding",
+    "lattice",
+  ]
+}

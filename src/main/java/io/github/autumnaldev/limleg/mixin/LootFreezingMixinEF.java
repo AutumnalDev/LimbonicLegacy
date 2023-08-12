@@ -39,7 +39,7 @@ public abstract class LootFreezingMixinEF {
     ) {
         Entity reference = (Entity) (Object) this;
         if (source.getAttacker() instanceof LivingEntity living) {
-            System.out.println("Main Hand Stack: " + living.getMainHandStack());
+//            System.out.println("Main Hand Stack: " + living.getMainHandStack()); note to self DO NOT LEAVE THESE IN
             ci.cancel();
 
             if (living.getMainHandStack().getItem() instanceof EntityLootFreezer freezer) {

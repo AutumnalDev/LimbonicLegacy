@@ -13,7 +13,6 @@ public class ModuleInitEF {
     public static final ItemGroup GROUP = FabricItemGroup.builder()
         .icon(ItemRegistryEF.ARCTITE_INGOT::getDefaultStack)
         .entries((context, entries) -> {
-            entries.add(ItemRegistryEF.ARCTITE_INGOT);
             entries.add(ToolRegistryEF.ARCTITE_SWORD);
             entries.add(ToolRegistryEF.ARCTITE_SHOVEL);
             entries.add(ToolRegistryEF.ARCTITE_PICKAXE);
@@ -23,8 +22,7 @@ public class ModuleInitEF {
             entries.add(ArmourRegistryEF.ARCTITE_CHESTPLATE);
             entries.add(ArmourRegistryEF.ARCTITE_LEGGINGS);
             entries.add(ArmourRegistryEF.ARCTITE_BOOTS);
-            
-            entries.add(ItemRegistryEF.COLDSTEEL_INGOT);
+
             entries.add(ToolRegistryEF.COLDSTEEL_SWORD);
             entries.add(ToolRegistryEF.COLDSTEEL_SHOVEL);
             entries.add(ToolRegistryEF.COLDSTEEL_PICKAXE);
@@ -42,7 +40,10 @@ public class ModuleInitEF {
             entries.add(BlockItemRegistryEF.SNOWBARK_PLANKS);
             entries.add(BlockItemRegistryEF.FROZEN_COBBLESTONE);
             entries.add(BlockItemRegistryEF.FROZEN_STONE);
+
             entries.add(BlockItemRegistryEF.ARCTITE_ORE);
+            entries.add(ItemRegistryEF.ARCTITE_INGOT);
+            entries.add(ItemRegistryEF.COLDSTEEL_INGOT);
         })
         .displayName(Text.translatable("itemGroup.limboniclegacy.group_ef"))
         .build();
